@@ -9,5 +9,11 @@
             string result = new string(stringArray);
             return result;
         }
+
+        public bool IsEmpty(string input)
+        {
+            bool result = String.IsNullOrEmpty(input);
+            return result;
+        }
     }
 }
